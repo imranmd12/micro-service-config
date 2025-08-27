@@ -1,4 +1,12 @@
-
+spring:
+  datasource:
+    username: root
+    password:Imran@786
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 
 eureka:
   client:
@@ -9,3 +17,6 @@ eureka:
   instance:
     hostname: localhost
     prefer-ip-address: true
+
+
+
